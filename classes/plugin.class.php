@@ -151,6 +151,14 @@ class NM_PLUGIN_WPComments extends NM_Framwork_V1_WPComment{
 	
 	
 	
+	// i18n and l10n support here
+	// plugin localization
+	function wpp_textdomain() {
+		$locale_dir = $this->plugin_meta['path'] . '/locale/';
+		load_plugin_textdomain('nm-wpcomments', false, $locale_dir);
+	}
+	
+	
 	/*
 	 * =============== NOW do your JOB ===========================
 	 * 
