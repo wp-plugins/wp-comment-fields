@@ -26,7 +26,7 @@ class NM_PLUGIN_WPComments_Admin extends NM_PLUGIN_WPComments{
 		*/
 		$this -> menu_pages		= array(array('page_title'	=> $this->plugin_meta['name'],
 				'menu_title'	=> $this->plugin_meta['name'],
-				'cap'			=> 'edit_plugins',
+				'cap'			=> 'manage_options',
 				'slug'			=> $this->plugin_meta['shortname'],
 				'callback'		=> 'main_settings',
 				'parent_slug'		=> '',),
