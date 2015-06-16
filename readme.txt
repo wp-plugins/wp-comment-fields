@@ -3,8 +3,8 @@ Contributors: nmedia
 Donate link: http://www.najeebmedia.com/donate/
 Tags: Comment fields, comment meta, comments inputs, comment form, extend comments
 Requires at least: 3.5
-Tested up to: 4.0
-Stable tag: 1.0
+Tested up to: 4.2
+Stable tag: 1.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,7 +53,8 @@ We are working on PRO version so far following features are planned:
 
 
 == Changelog ==
-
+= 1.1 =
+* Bug fixed: [Extra comma was removed, described here](https://wordpress.org/support/topic/extra-comma-in-output?replies=2)
 = 1.0 =
 * It is first version, and working perfectly
 
